@@ -1,0 +1,31 @@
+.navContainer{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--nav-bg);
+    z-index: 1000;
+}
+
+.navBar{
+    display: flex;
+    gap: 2rem;
+    background-color: var(--nav-inner-bg);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    background-color: black;
+}
+
+.navItem{
+    color: rgb(174, 24, 24);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navItem:hover{
+    color: rgb(179, 144, 144);
+}

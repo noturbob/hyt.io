@@ -1,0 +1,56 @@
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loginForm{
+    border: 2px solid black;
+    padding: 7%;
+    border-radius: 7px;
+    background-color: transparent;
+
+}
+
+.loginTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.emailText{
+font-size: 12px;
+
+}
+
+.emailInput{
+ border-radius: 10px;
+
+}
+
+.passwordText{
+font-size: 12px;
+
+}
+
+.passwordInput{
+ border-radius: 10px;
+
+}
+.LoginBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 5vh;
+    width: 50%
+
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+
+}
