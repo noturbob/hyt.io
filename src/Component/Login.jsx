@@ -1,4 +1,4 @@
-import style from "../Style/practice.module.css";
+import style from "../Style/login.module.css";
 import { useState } from "react";
 
 function LoginBtn() {

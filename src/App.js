@@ -1,10 +1,11 @@
-import Profile from "./Component/Practice";
+import Login from "./Component/Login";
+import Profile from "./Component/Login";
 
 function App() {
   return (
 
     <div className="App">
-      <Profile />
+      <Login />
     </div>
   
   );
